@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Perla Verde</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div id="navbar">
+            <img src="Pirla_Logo.jpeg" alt="Perla Verde Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="About-us.html">About Us</a>
+            <a href="contac.html" class="active">Contact Us</a>
+        </div>
+    </nav>
+
+    <section id="contact" class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> +966 50 123 45 67</p>
+                <p><i class="fas fa-envelope"></i> PerlaVerde@gmail.com</p>
+            </div>
+
+            <form class="contact-form">
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                
+                <div class="rating-section">
+                    <label>Rating:</label>
+                    <div class="stars">
+                        <input type="radio" name="Rating" id="r1"> 1
+                        <input type="radio" name="Rating" id="r2"> 2
+                        <input type="radio" name="Rating" id="r3"> 3
+                        <input type="radio" name="Rating" id="r4"> 4
+                        <input type="radio" name="Rating" id="r5"> 5
+                    </div>
+                </div>
+
+                <input type="submit" value="Send" class="submit-btn">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p> 2020 Perla Verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
