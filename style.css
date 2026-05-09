@@ -455,11 +455,9 @@ body {
 }
 
 /* --- Special About Us Theme --- */
-
-/* Hero Header with Background */
 .about-special-hero {
     height: 500px;
-    background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+    background: ('https://www.bing.com/th/id/OIP.JGdd4oLSRwffuwRqXfqYtAHaE8?w=193&h=135&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -467,7 +465,7 @@ body {
 }
 
 .hero-overlay-content {
-    background: rgba(255, 255, 255, 0.9); /* White elegant overlay */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 40px 60px;
     text-align: center;
     border-radius: 5px;
@@ -543,8 +541,8 @@ body {
 .story-image img {
     width: 100%;
     max-width: 500px;
-    border-radius: 100px 20px 100px 20px; /* Unique artistic shape */
-    box-shadow: 20px 20px 0px #2e7d32; /* Green solid shadow */
+    border-radius: 100px 20px 100px 20px; 
+    box-shadow: 20px 20px 0px #2e7d32; 
 }
 
 .story-info h2 {
